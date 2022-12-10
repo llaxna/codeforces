@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+ 
+int main() {
+  string n;
+  cin >> n;
+  int count=0;
+ 
+  for (int i=0;i<n.length();i++){
+    int flag=1;
+    for (int j=i+1;j<n.length();j++){
+      if (n[i]==n[j]){
+        flag=0;
+        break;
+        }
+    }
+    if (flag)
+     count++;
+  }
+  
+if (count%2==0)
+  cout << "CHAT WITH HER!" <<endl;
+ 
+else
+  cout << "IGNORE HIM!" <<endl;
+ 
+ 
+  return 0;
+}
