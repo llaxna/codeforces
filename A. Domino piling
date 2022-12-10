@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+	int M, N,multi;
+	cin >> M >> N;
+	multi = M * N;
+	if (multi % 2 == 0|| multi % 2 == 1)
+	{
+		cout << (multi / 2);
+	}
+}
