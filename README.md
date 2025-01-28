@@ -37,6 +37,11 @@ Approach: Calculate the number of tiles for each dimension by taking the ceiling
 Problem: In an n x n matrix, find the sum of the "good" elements (elements located on both the main diagonal and anti-diagonal).
 Approach: Iterate through the matrix and add the elements that meet the criteria for being "good."
 
+## 📌 Topics Covered
+Math: Divisibility, Number Theory, Geometry, Greedy Algorithms.
+Strings: Manipulation, Pattern Matching, Counting Distinct Elements.
+Data Structures: Arrays, Sets.
+Implementation: Simulations, Counting, Iteration over Sequences.
 
 
 
