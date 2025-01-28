@@ -6,7 +6,7 @@ This repository contains my solutions to various Codeforces problems. These prob
 ## 📂 Problem List
 This section includes the problems and their corresponding solutions:
 
-### 1. Boy or Girl (800)
+#### 1. Boy or Girl (800)
   - **Problem**: Determine if a username has an even or odd number of distinct characters.
   - **Approach**: Use a set to track unique characters in the string. If the size of the set is even, print "CHAT WITH HER!", otherwise print "IGNORE HIM!".
 2. Domino Piling (800)
